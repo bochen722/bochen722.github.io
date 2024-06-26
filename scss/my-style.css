@@ -1,0 +1,46 @@
+
+
+.card-text{
+    font-size: 13px;
+}
+
+.card-hover{
+    position: relative;
+}
+
+.card-hover::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.5s ease;
+    top:0; right:0; bottom:0; left:0;
+    background: rgba(25, 32, 239, 0.8);
+}
+
+.card:hover .card-hover::before {
+    opacity: 0.8;
+}
+
+.card-title{
+    transition: 0.5s ease;
+}
+
+.card:hover .card-title{
+    color: rgba(25, 32, 239, 0.8);
+}
+
+.margin-set{
+    padding-top: 4rem !important; 
+    padding-bottom: 2rem !important;
+}
+
+.card{
+    background-color: transparent;
+}
+
+h1{
+    font-size: 60px !important;
+}
