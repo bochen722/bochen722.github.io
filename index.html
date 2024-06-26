@@ -122,7 +122,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h1>
+        <h1 class="h1-sm">
         Bo-Yun<br>Chen
         </h1>
         <p>
@@ -485,18 +485,15 @@
   padding-right: 6rem;
 }
 
-h1{
-    font-size: 80px !important;
-    padding-bottom: 40px;
-    font-family: "Noto Serif Display", serif !important;
-    font-weight: 500;
+.h1-sm{
+  font-size: 80px !important;
 }
 
 @media screen and (max-width: 1200px){
   .work-pd{
     padding-left: 4rem;
     padding-right: 4rem;
-  }	
+  }
 }
 
 @media screen and (max-width: 992px){
@@ -504,12 +501,9 @@ h1{
     padding-left: 3rem;
     padding-right: 3rem;
   }
-  .navbar-white{
-    background-color: rgba(255, 255, 255, 0.5);
+  .h1-sm{
+    font-size: 56px !important;
   }
-   h1{
-    font-size: 56px !important;  
-  }	
 }
 
 @media screen and (max-width: 768px){
@@ -517,13 +511,18 @@ h1{
     padding-left: 2rem;
     padding-right: 2rem;
   }
-  .navbar-white{
-    background-color: rgba(255, 255, 255, 0.5);
-  }	
-  h1{
-    font-size: 56px !important;  
+  .h1-sm{
+    font-size: 56px !important;
   }
 }
+
+h1{
+    padding-bottom: 40px;
+    font-family: "Noto Serif Display", serif !important;
+    font-weight: 500;
+}
+
+
 
 .serifont{
   font-family: "Playfair Display", serif !important;
